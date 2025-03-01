@@ -91,11 +91,10 @@ const MessageInput = () => {
 
           <button
             type="button"
-            className={`hidden sm:flex btn btn-circle
-                     ${imagePreview ? "text-emerald-500" : "text-zinc-400"}`}
+            className={`sm:flex btn btn-sm btn-circle ${imagePreview ? "text-emerald-500" : "text-zinc-400"} block `}
             onClick={() => fileInputRef.current?.click()}
           >
-            <Image size={20} />
+            <Image size={22} />
           </button>
         </div>
         <button
