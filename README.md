@@ -23,38 +23,38 @@ A real-time chat application built using the MERN stack (MongoDB, Express, React
 ## Installation Instructions
 
 ### 1. Clone the Repository
-```bash
-git clone https://github.com/jeevapr20/chat_app.git
+  ```bash
+  git clone https://github.com/jeevapr20/chat_app.git
 2. Navigate to the Project Directory
-bash
-cd chat_app
+  ```bash
+  cd chat_app
 3. Install Dependencies for Backend
 Navigate into the backend folder and install dependencies:
 
-bash
-cd backend
-npm install
+  ```bash
+  cd backend
+  npm install
 4. Install Dependencies for Frontend
 Navigate into the frontend folder and install dependencies:
 
-bash
-cd ../frontend
-npm install
+  ```bash
+  cd ../frontend
+  npm install
 5. Set Up Environment Variables
 Create a .env file in the backend folder and configure the following:
 
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-SOCKET_PORT=your_socket_port
+  MONGO_URI=your_mongodb_connection_string
+  JWT_SECRET=your_jwt_secret
+  SOCKET_PORT=your_socket_port
 6. Run the Backend Server
-bash
-cd backend
-npm start
+  ```bash
+  cd backend
+  npm start
 7. Run the Frontend
 In another terminal, run the frontend:
 
-bash
-cd frontend
-npm start
+  ```bash
+  cd frontend
+  npm start
 8. Open the Application
 Visit http://localhost:3000 in your browser to use the chat app.
