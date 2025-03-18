@@ -48,11 +48,13 @@ Navigate into the frontend folder and install dependencies:
 
 5. Set Up Environment Variables
 Create a .env file in the backend folder and configure the following:
+```
   MONGO_URI=your_mongodb_connection_string
   JWT_SECRET=your_jwt_secret
   SOCKET_PORT=your_socket_port
+```
 
-6. Run the Backend Server
+7. Run the Backend Server
   ```bash
   cd backend
   npm start
