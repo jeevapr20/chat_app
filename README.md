@@ -26,8 +26,8 @@ A real-time chat application built using the MERN stack (MongoDB, Express, React
   git clone https://github.com/jeevapr20/chat_app.git
 
 2. Navigate to the Project Directory
-  ```bash
-  cd chat_app
+    ```bash
+    cd chat_app
 
 3. Install Dependencies for Backend
 Navigate into the backend folder and install dependencies:
